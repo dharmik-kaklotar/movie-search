@@ -12,7 +12,7 @@ const Home = () => {
 
   // for get your api  key here: https://www.omdbapi.com/apikey.aspx
 
-  const apiKey = process.env.API_KEY;
+  const apiKey = '289b9834';
 
   const GetMovies = async (movieName) => {
     setLoding(true);
