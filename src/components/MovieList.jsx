@@ -12,7 +12,7 @@ const Home = () => {
 
   // for get your api  key here: https://www.omdbapi.com/apikey.aspx
 
-  const apiKey = '289b9834';
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   const GetMovies = async (movieName) => {
     setLoding(true);
